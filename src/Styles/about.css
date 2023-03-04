@@ -1,0 +1,74 @@
+.abouts__container {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Courier New", Courier, monospace;
+  text-align: justify;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.aboutus__content {
+  text-align: justify;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.aboutus__content p {
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
+}
+.aboutus__content h2 {
+  font-weight: 200;
+  font-size: 42px;
+  color: black;
+}
+.aboutus__content,
+.aboutus__button:first-child {
+  margin-right: 20px;
+}
+
+.aboutus__button {
+  color: black;
+  margin-left: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutus__button h4 {
+  color: black;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.aboutus__button a {
+  color: black;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutus__content p {
+    color: black;
+    font-size: 11px;
+  }
+  .aboutus__content h2 {
+    color: black;
+    font-size: 30px;
+  }
+  .aboutus__button {
+    color: black;
+    margin: 0;
+  }
+  .aboutus__button h4 {
+    color: black;
+    font-size: 20px;
+  }
+  .aboutus__button a {
+    color: black;
+    margin-right: 10px;
+  }
+}
